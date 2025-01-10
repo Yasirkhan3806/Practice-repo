@@ -1,6 +1,36 @@
-#div1{
-    background-color: black;
+#main-page{
+    border: 2px solid green;
+    display: flex;
+    /* flex-direction: ; */
+    /* flex-wrap: ; */
+    gap: 10px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* width: 500px;*/
+    height: 500px;
 }
-#span1{
-    background-color: blue;
+
+
+#sideBar{
+    border: 2px solid red;
+    width: 20%;
+}
+#main{
+    border: 2px solid red;
+    width: 80%;
+}
+nav{
+    border: 2px solid blue;
+}
+.list-sub{
+    border: 2px solid green;
+}
+#list{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0px;
+}
+#list-sub2{
+    display: flex;
 }
